@@ -1,9 +1,12 @@
 package com.specialistSpring.brunoLanche.di.service;
 
 import com.specialistSpring.brunoLanche.di.modelo.Cliente;
+import com.specialistSpring.brunoLanche.di.notificacao.NotificadorEmail;
+import org.springframework.stereotype.Component;
 
+@Component
 public class AtivacaoClienteService {
-    // private Notificador notificador;
+     private NotificadorEmail notificador;
     // private ClienteRepository clienteRepository;
 
     // public AtivacaoClienteService(Notificador notificador, ClienteRepository clienteRepository) {
