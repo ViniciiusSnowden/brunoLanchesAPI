@@ -1,7 +1,9 @@
 package com.specialistSpring.brunoLanche.di.notificacao;
 
 import com.specialistSpring.brunoLanche.di.modelo.Cliente;
+import org.springframework.stereotype.Component;
 
+@Component
 public class NotificadorEmail {
 
     public void notificar(Cliente cliente, String mensagem) {
