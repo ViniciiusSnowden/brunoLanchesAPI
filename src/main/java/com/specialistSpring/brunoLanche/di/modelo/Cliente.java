@@ -2,13 +2,13 @@ package com.specialistSpring.brunoLanche.di.modelo;
 
 public class Cliente {
     private String nome;
-    private String endereco;
+    private String email;
     private String telefone;
     private Boolean ativo = false;
 
     public Cliente(String nome, String endereco, String telefone, Boolean ativo) {
         this.nome = nome;
-        this.endereco = endereco;
+        this.email = endereco;
         this.telefone = telefone;
         this.ativo = ativo;
     }
@@ -22,11 +22,11 @@ public class Cliente {
     }
 
     public String getEndereco() {
-        return endereco;
+        return email;
     }
 
     public void setEndereco(String endereco) {
-        this.endereco = endereco;
+        this.email = endereco;
     }
 
     public String getTelefone() {
