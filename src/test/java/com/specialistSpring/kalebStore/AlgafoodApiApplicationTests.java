@@ -1,4 +1,4 @@
-package com.specialistSpring.brunoLanche;
+package com.specialistSpring.kalebStore;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

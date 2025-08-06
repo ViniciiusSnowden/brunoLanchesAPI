@@ -1,4 +1,4 @@
-package com.specialistSpring.brunoLanche;
+package com.specialistSpring.kalebStore;
 
 
 import org.springframework.stereotype.Controller;

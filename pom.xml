@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.specialistSpring</groupId>
-	<artifactId>brunoLanche</artifactId>
+	<artifactId>kalebStore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>brunoLanche-api</name>
-	<description>API de delivery de comida</description>
+	<name>kalebStore-api</name>
+	<description>Store de produtos</description>
 
 	<properties>
 		<java.version>12</java.version>

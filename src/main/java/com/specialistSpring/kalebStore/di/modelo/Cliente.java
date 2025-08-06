@@ -1,4 +1,4 @@
-package com.specialistSpring.brunoLanche.di.modelo;
+package com.specialistSpring.kalebStore.di.modelo;
 
 public class Cliente {
     private String nome;

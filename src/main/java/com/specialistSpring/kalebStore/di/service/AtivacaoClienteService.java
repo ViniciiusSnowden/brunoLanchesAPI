@@ -1,7 +1,7 @@
-package com.specialistSpring.brunoLanche.di.service;
+package com.specialistSpring.kalebStore.di.service;
 
-import com.specialistSpring.brunoLanche.di.modelo.Cliente;
-import com.specialistSpring.brunoLanche.di.notificacao.NotificadorEmail;
+import com.specialistSpring.kalebStore.di.modelo.Cliente;
+import com.specialistSpring.kalebStore.di.notificacao.NotificadorEmail;
 import org.springframework.stereotype.Component;
 
 @Component

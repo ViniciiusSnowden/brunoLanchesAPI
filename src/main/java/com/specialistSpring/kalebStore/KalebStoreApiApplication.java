@@ -1,13 +1,13 @@
-package com.specialistSpring.brunoLanche;
+package com.specialistSpring.kalebStore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BrunoLancheApiApplication {
+public class KalebStoreApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BrunoLancheApiApplication.class, args);
+		SpringApplication.run(KalebStoreApiApplication.class, args);
 	}
 
 }
