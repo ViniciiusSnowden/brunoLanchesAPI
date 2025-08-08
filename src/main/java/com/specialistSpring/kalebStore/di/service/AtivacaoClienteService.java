@@ -10,6 +10,8 @@ public class AtivacaoClienteService {
      private Notificador notificador;
     // private ClienteRepository clienteRepository;
 
+
+
     public AtivacaoClienteService(Notificador notificador) {
          this.notificador = notificador;
 //         //this.clienteRepository = clienteRepository;
