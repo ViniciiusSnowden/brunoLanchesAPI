@@ -13,6 +13,10 @@ public class Cliente {
         this.ativo = ativo;
     }
 
+    public void ativar() {
+        this.ativo = true;
+    }
+
     public String getNome() {
         return nome;
     }
