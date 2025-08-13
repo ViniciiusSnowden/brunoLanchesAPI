@@ -4,7 +4,7 @@ import com.specialistSpring.kalebStore.di.modelo.Cliente;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
-@Profile("prod")
+
 @TipoNotificador(NivelUrgencia.NAO_URGENTE)
 @Component
 public class NotificadorEmail implements Notificador {

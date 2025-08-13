@@ -7,6 +7,9 @@ import com.specialistSpring.kalebStore.di.notificacao.TipoNotificador;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 @Component
 public class AtivacaoClienteService {
 
@@ -15,6 +18,15 @@ public class AtivacaoClienteService {
      private Notificador notificador;
     // private ClienteRepository clienteRepository;
 
+    @PostConstruct
+    public void init(){
+        System.out.println("Init" + notificador);
+    }
+
+    @PreDestroy
+    public void detroy(){
+        System.out.println("Destory");
+    }
 
     public void ativar(Cliente cliente) {
          //clienteRepository.save(cliente);
