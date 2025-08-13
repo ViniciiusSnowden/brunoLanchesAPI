@@ -4,12 +4,15 @@ import com.specialistSpring.kalebStore.di.modelo.Cliente;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
-@Profile("prod")
+@Profile("dev")
 @TipoNotificador(NivelUrgencia.NAO_URGENTE)
 @Component
-public class NotificadorEmail implements Notificador {
+public class NotificadorEmailMock implements Notificador {
 
-    private boolean caixaAlta;
+    public NotificadorEmailMock(){
+        System.out.println("Usando profile dev");
+    }
+
 
     @Override
     public void notificar(Cliente cliente, String mensagem) {
